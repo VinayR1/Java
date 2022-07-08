@@ -1,4 +1,4 @@
-/* Random function generates the value between 0 and 1 */
+/* Random function generates the value greater than or equal to 0 and less than 1 */
 public class Main
 {
     public static void main(String args[])
