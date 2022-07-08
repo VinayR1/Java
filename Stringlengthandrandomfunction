@@ -1,0 +1,18 @@
+/* Online Java Compiler and Editor */
+public class Main
+{
+    public static void main(String args[])
+    {
+        String[] wordlist = { "Vinay", "Reddy", "Donda" };
+        int lengthofstring = wordlist.length;
+        System.out.println(lengthofstring);
+        double randomNumber1 = Math.random();
+        int randomNumber2 = (int) Math.random();
+        System.out.println("randomNumber1    " + randomNumber1);
+        System.out.println("randomNumber2    " + randomNumber2);
+        int finalnumber1 = (int) (randomNumber1 * lengthofstring);
+        int finalnumber2 = (int) (randomNumber2 * lengthofstring);
+        System.out.println("finalnumber1 " + finalnumber1 );
+         System.out.println("finalnumber1 " + finalnumber2 );
+    }
+}
