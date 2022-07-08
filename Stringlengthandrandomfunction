@@ -1,4 +1,4 @@
-/* Online Java Compiler and Editor */
+/* Random function generates the value between 0 and 1 */
 public class Main
 {
     public static void main(String args[])
