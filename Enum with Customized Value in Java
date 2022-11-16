@@ -1,0 +1,37 @@
+/*package whatever //do not write package name here */
+
+import java.io.*;
+
+enum  Color 
+{
+    // will create enum constructor with one string argument 
+    
+    RED("Stop"), GREEN("GO"), YELLOW("Ready to Go");
+    
+    private String value;
+    
+    public String getValue()
+    {
+        return this.value;
+    }
+    
+    // enum constructor cannot be public or protected
+    private Color(String action)
+    {
+        this.value = value;
+    }
+}
+
+public class Java 
+{
+    public static void main(String[] args)
+    {
+        Color C1[] = Color.values();
+        
+        for(Color enumvalues: C1)
+        {
+            System.out.println("name :" + enumvalues.name()+ "  value :" + enumvalues.getValue());
+        }
+        
+    }
+}
