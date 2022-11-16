@@ -1,0 +1,19 @@
+/*package whatever //do not write package name here */
+
+import java.io.*;
+
+enum  Color 
+{
+    RED,
+    GREEN,
+    BLUE
+}
+
+public class Java 
+{
+    public static void main(String[] args)
+    {
+        Color C1 = Color.RED;
+        System.out.println(C1);
+    }
+}
